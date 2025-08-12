@@ -1,0 +1,17 @@
+{
+    "ApplicationName": "MyWebApplication",
+    "TierName": "WebTier",
+    "ControllerHost": "mycompany.saas.appdynamics.com",
+    "ControllerPort": "443",
+    "ControllerSsl": "true",
+    "AccountAccessKey": "your-account-access-key-here",
+    "AccountName": "your-account-name",
+    "Orchestration": "false",
+    "SimEnabled": "true",
+    "IsSapMachine": "",
+    "MachinePath": "",
+    "DotNetCompatMode": "false",
+    "BaseInstallDir": "C:\\Temp",
+    "InstallDestination": "C:\\AppDynamics",
+    "ServiceName": "AppDynamics Machine Agent"
+}
