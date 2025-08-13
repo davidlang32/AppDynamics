@@ -44,6 +44,16 @@ Extend monitoring to third-party platforms using AppDynamics extensions:
 - [**Kubernetes Monitoring Extension**](https://github.com/Appdynamics/kubernetes-monitoring-extension)  
   Integrate Kubernetes health and performance metrics into your AppDynamics dashboards.
 
+- [**Windows Event Log Monitor**](https://github.com/Appdynamics/WindowsEventMonitorExtension)  
+  Capture and report Windows Event Log entries (errors, warnings, etc.) using the .NET Agent Extension Manager.
+
+- [**Network Monitoring Extension**](https://github.com/Appdynamics/network-monitoring-extension)  
+  Collect network-related metrics—such as interface usage and connection stats—on Windows and Linux systems (scripting allowed for customization).
+
+- **Java Custom Monitoring Extensions**  
+  Create your own monitoring extensions in Java by extending `AManagedMonitor` and configuring them via `monitor.xml` under the Machine Agent. These integrate smoothly into the Controller with baseline, alerting, and dashboard support.
+
+
 ---
 
 Feel free to explore each tool to determine how it can best support your AppDynamics monitoring strategy.
