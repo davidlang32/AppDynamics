@@ -55,5 +55,3 @@ Extend monitoring to third-party platforms using AppDynamics extensions:
 
 
 ---
-
-Feel free to explore each tool to determine how it can best support your AppDynamics monitoring strategy.
