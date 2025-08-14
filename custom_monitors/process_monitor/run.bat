@@ -1,2 +1,3 @@
 @echo off
-Powershell.exe -ExecutionPolicy remotesigned -File DeltekProcessMonitor.ps1
+
+Powershell.exe -ExecutionPolicy remotesigned -File ProcessMonitor.ps1
