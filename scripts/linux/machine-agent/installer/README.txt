@@ -1,3 +1,12 @@
+Usage:
+You can now configure the installation using environment variables:
+bashexport APPDYNAMICS_CONTROLLER_HOST="your-controller.com"
+export APPDYNAMICS_ACCESS_KEY="your-access-key"
+export APPDYNAMICS_ACCOUNT_NAME="your-account"
+export APPDYNAMICS_APP_NAME="MyApplication"
+./install-appdynamics-machine-agent.sh
+The improved script is production-ready with proper error handling, logging, and professional structure.
+
 Key Improvements Made:
 1. Error Handling & Safety
 
@@ -50,4 +59,5 @@ export APPDYNAMICS_ACCESS_KEY="your-access-key"
 export APPDYNAMICS_ACCOUNT_NAME="your-account"
 export APPDYNAMICS_APP_NAME="MyApplication"
 ./install-appdynamics-machine-agent.sh
+
 The improved script is production-ready with proper error handling, logging, and professional structure.
