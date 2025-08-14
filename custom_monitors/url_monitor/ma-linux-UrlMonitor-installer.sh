@@ -1,12 +1,12 @@
 #----------------------------------------------------------------------------------------------
 # 1. Update the application value below - under "URLMonitor Custom Settings"
-# 2. Copy the ma-linux-UrlMonitorHDP-installer.sh and UrlMonitor_template.zip file to the local tmp directory (update BASEInstallDir if you want to use something other than /tmp)
+# 2. Copy the ma-linux-UrlMonitor-installer.sh and UrlMonitor_template.zip file to the local tmp directory (update BASEInstallDir if you want to use something other than /tmp)
 # 3. Change to root
-# 4. Assign installer to root and modify the ma-linux-UrlMonitorHDP-installer.sh to 776
-#		chown root:root /tmp UrlMonitorHDP-installer.sh
-#		chmod 776 /tmp/UrlMonitorHDP-installer.sh
+# 4. Assign installer to root and modify the ma-linux-UrlMonitor-installer.sh to 776
+#		chown root:root /tmp UrlMonitor-installer.sh
+#		chmod 776 /tmp/UrlMonitor-installer.sh
 # 5. Execute the file:
-#		/tmp/UrlMonitorHDP-installer.sh
+#		/tmp/UrlMonitor-installer.sh
 # NOTE: The variable api below requires the \ "escape character" because it's being used in a sed function
 #----------------------------------------------------------------------------------------------
 
@@ -25,7 +25,7 @@ destinationDir='/opt/appdynamics/machine-agent/monitors'
 # URLMonitor Custom Settings
 #----------------------------------------------------------------------------------------------
 nodename=$hs
-applicationname="HDP"
+applicationname="applicationname"
 port="8443"
 apiname="healthcheck"
 api="\/api\/healthcheck"
