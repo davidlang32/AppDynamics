@@ -1,5 +1,5 @@
 <monitor>
-    <name>DeltekCheckServicesMonitor</name>
+    <name>CheckServicesMonitor</name>
     <type>managed</type>
     <enabled>true</enabled>
     <description>Monitors Specified Running Processes.
@@ -16,7 +16,7 @@
         </task-arguments>
         <executable-task>
             <type>file</type>
-            <file os-type="linux">DeltekCheckServicesMonitor.sh</file>
+            <file os-type="linux">CheckServicesMonitor.sh</file>
             <file os-type="windows">run.bat</file>
         </executable-task>
     </monitor-run-task>
