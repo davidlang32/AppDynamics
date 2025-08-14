@@ -1,0 +1,16 @@
+{
+    "ControllerHost": "controller.company.com",
+    "ControllerPort": "443",
+    "ControllerSsl": "true",
+    "AccountAccessKey": "your-account-access-key-here",
+    "AccountName": "customer1",
+    "ApplicationName": "MyDotNetApplication",
+    "TierName": "WebTier",
+    "NodeName": "WEB-SERVER-01",
+    "AgentType": "dotNetAgent",
+    "LogLevel": "INFO",
+    "LogPath": "C:\\AppDynamics\\dotNetAgent\\Logs",
+    "EnableAnalytics": "true",
+    "EnableBCI": "true",
+    "EnableSnapshot": "true"
+}
