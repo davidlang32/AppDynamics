@@ -4,7 +4,7 @@
 # AppDynamics Machine Agent Management Script
 # Description: Upgrade, remove, or manage AppDynamics Machine Agent
 # Version: 1.0
-# Author: System Administrator
+# Author: David Lang
 # Last Updated: $(date +%Y-%m-%d)
 #===============================================================================
 
@@ -733,4 +733,5 @@ trap cleanup_on_error EXIT
 # Check if script is being sourced or executed
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     main "$@"
+
 fi
